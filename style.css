@@ -18,4 +18,6 @@ nav a{color:var(--muted)}
 nav .langs{flex-basis:100%;display:flex;flex-wrap:wrap;gap:8px 16px}
 nav a[aria-current]{color:var(--fg);text-decoration:none}
 dl dt{font-weight:600;margin-top:18px}dl dd{margin:4px 0 0}
+:lang(ja){line-break:strict}
+h1:lang(ja){word-break:keep-all;overflow-wrap:anywhere}
 code{font-family:ui-monospace,SF Mono,Menlo,monospace;font-size:.95em}
