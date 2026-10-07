@@ -21,7 +21,7 @@ nav a{color:var(--muted)}
 .lang summary::after{content:"";width:6px;height:6px;border-right:1.5px solid var(--muted);border-bottom:1.5px solid var(--muted);transform:translateY(-2px) rotate(45deg)}
 .lang summary:hover,.lang[open] summary{background:var(--line)}
 .lang .langs{position:absolute;inset-inline-end:0;top:calc(100% + 6px);z-index:10;width:min(340px,calc(100vw - 40px));max-height:80vh;overflow:auto;display:grid;grid-template-columns:1fr 1fr;gap:2px 6px;padding:8px;background:var(--bg);border:1px solid var(--line);border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,.18);font-size:15px;line-height:1.35}
-.lang .langs a{display:flex;gap:8px;align-items:baseline;padding:6px 8px;border-radius:8px;color:var(--fg);text-decoration:none}
+.lang .langs a{display:flex;gap:8px;align-items:baseline;padding:6px 8px;border-radius:8px;color:var(--fg);text-decoration:none;direction:ltr;text-align:left}
 .lang .langs a:hover,.lang .langs a[aria-current]{background:var(--line)}
 dl dt{font-weight:600;margin-top:18px}dl dd{margin:4px 0 0}
 :lang(ja){line-break:strict}
